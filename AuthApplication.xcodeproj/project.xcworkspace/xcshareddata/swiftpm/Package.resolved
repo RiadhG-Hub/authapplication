@@ -1,0 +1,42 @@
+{
+  "originHash" : "8ea8b0bf46ae8fd5cef132dbbca3b1408d9e401d4227f6fcd881041ecd4db711",
+  "pins" : [
+    {
+      "identity" : "alamofire",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Alamofire/Alamofire.git",
+      "state" : {
+        "revision" : "f455c2975872ccd2d9c81594c658af65716e9b9a",
+        "version" : "5.9.1"
+      }
+    },
+    {
+      "identity" : "realm-core",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/realm/realm-core.git",
+      "state" : {
+        "revision" : "c2552e1d36867cb42b28130e894a81fc17081062",
+        "version" : "14.12.0"
+      }
+    },
+    {
+      "identity" : "realm-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/realm/realm-swift.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "7ffcc1165fe335b793f59c5a4ff0d472fcc1625a"
+      }
+    },
+    {
+      "identity" : "swiftui-router",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/frzi/swiftui-router.git",
+      "state" : {
+        "revision" : "e0cb32b54bb429aa43ce30240b0036bf223a62a3",
+        "version" : "1.4.0"
+      }
+    }
+  ],
+  "version" : 3
+}

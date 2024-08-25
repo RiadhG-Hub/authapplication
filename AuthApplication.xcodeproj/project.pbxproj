@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D5984532C792DF50057C5CB /* TokenResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5984522C792DF50057C5CB /* TokenResponse.swift */; };
+		3D5984562C7933840057C5CB /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3D5984552C7933840057C5CB /* RealmSwift */; };
+		3D5984582C7936160057C5CB /* UserFullInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5984572C7936160057C5CB /* UserFullInfo.swift */; };
 		3D6EF1A42C772DFE00483AD6 /* AuthApplicationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6EF1A32C772DFE00483AD6 /* AuthApplicationApp.swift */; };
 		3D6EF1A62C772DFE00483AD6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6EF1A52C772DFE00483AD6 /* ContentView.swift */; };
 		3D6EF1A82C772DFE00483AD6 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6EF1A72C772DFE00483AD6 /* Item.swift */; };
@@ -15,6 +18,26 @@
 		3D6EF1B82C772DFF00483AD6 /* AuthApplicationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6EF1B72C772DFF00483AD6 /* AuthApplicationTests.swift */; };
 		3D6EF1C22C772DFF00483AD6 /* AuthApplicationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6EF1C12C772DFF00483AD6 /* AuthApplicationUITests.swift */; };
 		3D6EF1C42C772DFF00483AD6 /* AuthApplicationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6EF1C32C772DFF00483AD6 /* AuthApplicationUITestsLaunchTests.swift */; };
+		3D6EF1DF2C772FEE00483AD6 /* ApiError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6EF1D02C772FED00483AD6 /* ApiError.swift */; };
+		3D6EF1E02C772FEE00483AD6 /* AnalyticsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6EF1D42C772FED00483AD6 /* AnalyticsService.swift */; };
+		3D6EF1E12C772FEE00483AD6 /* QuizService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6EF1D52C772FED00483AD6 /* QuizService.swift */; };
+		3D6EF1E22C772FEE00483AD6 /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6EF1D72C772FED00483AD6 /* CategoryView.swift */; };
+		3D6EF1E32C772FEE00483AD6 /* AssetsLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6EF1DB2C772FED00483AD6 /* AssetsLinks.swift */; };
+		3D6EF1E42C772FEE00483AD6 /* QuizListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6EF1DD2C772FED00483AD6 /* QuizListViewModel.swift */; };
+		3D6EF1E72C77322700483AD6 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 3D6EF1E62C77322700483AD6 /* Alamofire */; };
+		3D6EFAEC2C7B199F00C9D26E /* SwiftUIRouter in Frameworks */ = {isa = PBXBuildFile; productRef = 3D6EFAEB2C7B199F00C9D26E /* SwiftUIRouter */; };
+		3D6EFAEE2C7B1B1000C9D26E /* RootRoutes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6EFAED2C7B1B1000C9D26E /* RootRoutes.swift */; };
+		3D6EFAF02C7B1BDA00C9D26E /* NavigationTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6EFAEF2C7B1BDA00C9D26E /* NavigationTransition.swift */; };
+		3D6EFAF22C7B1E3000C9D26E /* PagesPaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6EFAF12C7B1E3000C9D26E /* PagesPaths.swift */; };
+		3D6EFAF42C7B1F3C00C9D26E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6EFAF32C7B1F3C00C9D26E /* HomeView.swift */; };
+		3D77B53A2C7A6734002B3808 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D77B5392C7A6734002B3808 /* LoginView.swift */; };
+		3D77B53C2C7A7682002B3808 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D77B53B2C7A7682002B3808 /* AuthViewModel.swift */; };
+		3DB4E9302C7A1103000C146D /* AuthCachedRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB4E92F2C7A1103000C146D /* AuthCachedRepository.swift */; };
+		3DB4E9342C7A13F0000C146D /* AuthRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB4E9332C7A13F0000C146D /* AuthRepository.swift */; };
+		3DBDFF592C77AB1300BE3844 /* AuthRepositoryInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBDFF582C77AB1300BE3844 /* AuthRepositoryInterface.swift */; };
+		3DBDFF5B2C77AC0000BE3844 /* AuthRemoteRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBDFF5A2C77AC0000BE3844 /* AuthRemoteRepository.swift */; };
+		3DBDFF5D2C77AF4600BE3844 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBDFF5C2C77AF4600BE3844 /* User.swift */; };
+		3DBDFF5F2C77B02A00BE3844 /* SpalshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBDFF5E2C77B02A00BE3844 /* SpalshView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +58,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3D5984522C792DF50057C5CB /* TokenResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenResponse.swift; sourceTree = "<group>"; };
+		3D5984572C7936160057C5CB /* UserFullInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserFullInfo.swift; sourceTree = "<group>"; };
 		3D6EF1A02C772DFE00483AD6 /* AuthApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AuthApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D6EF1A32C772DFE00483AD6 /* AuthApplicationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthApplicationApp.swift; sourceTree = "<group>"; };
 		3D6EF1A52C772DFE00483AD6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -47,6 +72,24 @@
 		3D6EF1BD2C772DFF00483AD6 /* AuthApplicationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AuthApplicationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D6EF1C12C772DFF00483AD6 /* AuthApplicationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthApplicationUITests.swift; sourceTree = "<group>"; };
 		3D6EF1C32C772DFF00483AD6 /* AuthApplicationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthApplicationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3D6EF1D02C772FED00483AD6 /* ApiError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiError.swift; sourceTree = "<group>"; };
+		3D6EF1D42C772FED00483AD6 /* AnalyticsService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalyticsService.swift; sourceTree = "<group>"; };
+		3D6EF1D52C772FED00483AD6 /* QuizService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizService.swift; sourceTree = "<group>"; };
+		3D6EF1D72C772FED00483AD6 /* CategoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
+		3D6EF1DB2C772FED00483AD6 /* AssetsLinks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssetsLinks.swift; sourceTree = "<group>"; };
+		3D6EF1DD2C772FED00483AD6 /* QuizListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizListViewModel.swift; sourceTree = "<group>"; };
+		3D6EFAED2C7B1B1000C9D26E /* RootRoutes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootRoutes.swift; sourceTree = "<group>"; };
+		3D6EFAEF2C7B1BDA00C9D26E /* NavigationTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationTransition.swift; sourceTree = "<group>"; };
+		3D6EFAF12C7B1E3000C9D26E /* PagesPaths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagesPaths.swift; sourceTree = "<group>"; };
+		3D6EFAF32C7B1F3C00C9D26E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		3D77B5392C7A6734002B3808 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		3D77B53B2C7A7682002B3808 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		3DB4E92F2C7A1103000C146D /* AuthCachedRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthCachedRepository.swift; sourceTree = "<group>"; };
+		3DB4E9332C7A13F0000C146D /* AuthRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthRepository.swift; sourceTree = "<group>"; };
+		3DBDFF582C77AB1300BE3844 /* AuthRepositoryInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthRepositoryInterface.swift; sourceTree = "<group>"; };
+		3DBDFF5A2C77AC0000BE3844 /* AuthRemoteRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthRemoteRepository.swift; sourceTree = "<group>"; };
+		3DBDFF5C2C77AF4600BE3844 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		3DBDFF5E2C77B02A00BE3844 /* SpalshView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpalshView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +97,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D6EFAEC2C7B199F00C9D26E /* SwiftUIRouter in Frameworks */,
+				3D5984562C7933840057C5CB /* RealmSwift in Frameworks */,
+				3D6EF1E72C77322700483AD6 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +123,16 @@
 		3D6EF1972C772DFE00483AD6 = {
 			isa = PBXGroup;
 			children = (
+				3D6EFAF12C7B1E3000C9D26E /* PagesPaths.swift */,
+				3D6EFAEF2C7B1BDA00C9D26E /* NavigationTransition.swift */,
+				3D6EFAED2C7B1B1000C9D26E /* RootRoutes.swift */,
+				3D6EF1D92C772FED00483AD6 /* Models */,
+				3D6EF1DA2C772FED00483AD6 /* Repositories */,
+				3D6EF1DC2C772FED00483AD6 /* Resources */,
+				3D6EF1D62C772FED00483AD6 /* Services */,
+				3D6EF1D32C772FED00483AD6 /* Utilities */,
+				3D6EF1DE2C772FED00483AD6 /* ViewModels */,
+				3D6EF1D82C772FED00483AD6 /* Views */,
 				3D6EF1A22C772DFE00483AD6 /* AuthApplication */,
 				3D6EF1B62C772DFF00483AD6 /* AuthApplicationTests */,
 				3D6EF1C02C772DFF00483AD6 /* AuthApplicationUITests */,
@@ -132,6 +188,111 @@
 			path = AuthApplicationUITests;
 			sourceTree = "<group>";
 		};
+		3D6EF1D12C772FED00483AD6 /* ApiErrors */ = {
+			isa = PBXGroup;
+			children = (
+				3D6EF1D02C772FED00483AD6 /* ApiError.swift */,
+			);
+			path = ApiErrors;
+			sourceTree = "<group>";
+		};
+		3D6EF1D22C772FED00483AD6 /* Errors */ = {
+			isa = PBXGroup;
+			children = (
+				3D6EF1D12C772FED00483AD6 /* ApiErrors */,
+			);
+			path = Errors;
+			sourceTree = "<group>";
+		};
+		3D6EF1D32C772FED00483AD6 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				3D6EF1D22C772FED00483AD6 /* Errors */,
+			);
+			name = Utilities;
+			path = "../../Desktop/mvvm swiftui struct/Utilities";
+			sourceTree = "<group>";
+		};
+		3D6EF1D62C772FED00483AD6 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				3D6EF1D42C772FED00483AD6 /* AnalyticsService.swift */,
+				3D6EF1D52C772FED00483AD6 /* QuizService.swift */,
+			);
+			name = Services;
+			path = "../../Desktop/mvvm swiftui struct/Services";
+			sourceTree = "<group>";
+		};
+		3D6EF1D82C772FED00483AD6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3D6EF1D72C772FED00483AD6 /* CategoryView.swift */,
+				3DBDFF5E2C77B02A00BE3844 /* SpalshView.swift */,
+				3D77B5392C7A6734002B3808 /* LoginView.swift */,
+				3D6EFAF32C7B1F3C00C9D26E /* HomeView.swift */,
+			);
+			name = Views;
+			path = "../../Desktop/mvvm swiftui struct/Views";
+			sourceTree = "<group>";
+		};
+		3D6EF1D92C772FED00483AD6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3DBDFF5C2C77AF4600BE3844 /* User.swift */,
+				3D5984522C792DF50057C5CB /* TokenResponse.swift */,
+				3D5984572C7936160057C5CB /* UserFullInfo.swift */,
+			);
+			name = Models;
+			path = "../../Desktop/mvvm swiftui struct/Models";
+			sourceTree = "<group>";
+		};
+		3D6EF1DA2C772FED00483AD6 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				3DB4E9322C7A13C4000C146D /* Remote */,
+				3DB4E9312C7A13B8000C146D /* Cached */,
+				3DBDFF582C77AB1300BE3844 /* AuthRepositoryInterface.swift */,
+				3DB4E9332C7A13F0000C146D /* AuthRepository.swift */,
+			);
+			name = Repositories;
+			path = "../../Desktop/mvvm swiftui struct/Repositories";
+			sourceTree = "<group>";
+		};
+		3D6EF1DC2C772FED00483AD6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3D6EF1DB2C772FED00483AD6 /* AssetsLinks.swift */,
+			);
+			name = Resources;
+			path = "../../Desktop/mvvm swiftui struct/Resources";
+			sourceTree = "<group>";
+		};
+		3D6EF1DE2C772FED00483AD6 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				3D6EF1DD2C772FED00483AD6 /* QuizListViewModel.swift */,
+				3D77B53B2C7A7682002B3808 /* AuthViewModel.swift */,
+			);
+			name = ViewModels;
+			path = "../../Desktop/mvvm swiftui struct/ViewModels";
+			sourceTree = "<group>";
+		};
+		3DB4E9312C7A13B8000C146D /* Cached */ = {
+			isa = PBXGroup;
+			children = (
+				3DB4E92F2C7A1103000C146D /* AuthCachedRepository.swift */,
+			);
+			path = Cached;
+			sourceTree = "<group>";
+		};
+		3DB4E9322C7A13C4000C146D /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+				3DBDFF5A2C77AC0000BE3844 /* AuthRemoteRepository.swift */,
+			);
+			path = Remote;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -148,6 +309,11 @@
 			dependencies = (
 			);
 			name = AuthApplication;
+			packageProductDependencies = (
+				3D6EF1E62C77322700483AD6 /* Alamofire */,
+				3D5984552C7933840057C5CB /* RealmSwift */,
+				3D6EFAEB2C7B199F00C9D26E /* SwiftUIRouter */,
+			);
 			productName = AuthApplication;
 			productReference = 3D6EF1A02C772DFE00483AD6 /* AuthApplication.app */;
 			productType = "com.apple.product-type.application";
@@ -220,6 +386,11 @@
 				Base,
 			);
 			mainGroup = 3D6EF1972C772DFE00483AD6;
+			packageReferences = (
+				3D6EF1E52C77322700483AD6 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				3D5984542C7933840057C5CB /* XCRemoteSwiftPackageReference "realm-swift" */,
+				3D6EFAEA2C7B199F00C9D26E /* XCRemoteSwiftPackageReference "swiftui-router" */,
+			);
 			productRefGroup = 3D6EF1A12C772DFE00483AD6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -262,9 +433,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D6EFAF22C7B1E3000C9D26E /* PagesPaths.swift in Sources */,
+				3D6EF1E32C772FEE00483AD6 /* AssetsLinks.swift in Sources */,
+				3D6EFAEE2C7B1B1000C9D26E /* RootRoutes.swift in Sources */,
+				3D6EFAF02C7B1BDA00C9D26E /* NavigationTransition.swift in Sources */,
+				3DBDFF5B2C77AC0000BE3844 /* AuthRemoteRepository.swift in Sources */,
+				3D5984532C792DF50057C5CB /* TokenResponse.swift in Sources */,
+				3D6EF1E12C772FEE00483AD6 /* QuizService.swift in Sources */,
+				3D6EF1E42C772FEE00483AD6 /* QuizListViewModel.swift in Sources */,
+				3DBDFF5F2C77B02A00BE3844 /* SpalshView.swift in Sources */,
+				3D77B53C2C7A7682002B3808 /* AuthViewModel.swift in Sources */,
+				3DBDFF592C77AB1300BE3844 /* AuthRepositoryInterface.swift in Sources */,
+				3D6EF1E22C772FEE00483AD6 /* CategoryView.swift in Sources */,
 				3D6EF1A62C772DFE00483AD6 /* ContentView.swift in Sources */,
+				3D6EF1E02C772FEE00483AD6 /* AnalyticsService.swift in Sources */,
+				3DBDFF5D2C77AF4600BE3844 /* User.swift in Sources */,
+				3D6EF1DF2C772FEE00483AD6 /* ApiError.swift in Sources */,
+				3D77B53A2C7A6734002B3808 /* LoginView.swift in Sources */,
 				3D6EF1A82C772DFE00483AD6 /* Item.swift in Sources */,
+				3DB4E9342C7A13F0000C146D /* AuthRepository.swift in Sources */,
+				3D5984582C7936160057C5CB /* UserFullInfo.swift in Sources */,
 				3D6EF1A42C772DFE00483AD6 /* AuthApplicationApp.swift in Sources */,
+				3D6EFAF42C7B1F3C00C9D26E /* HomeView.swift in Sources */,
+				3DB4E9302C7A1103000C146D /* AuthCachedRepository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -621,6 +812,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3D5984542C7933840057C5CB /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		3D6EF1E52C77322700483AD6 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.1;
+			};
+		};
+		3D6EFAEA2C7B199F00C9D26E /* XCRemoteSwiftPackageReference "swiftui-router" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/frzi/swiftui-router.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.4.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3D5984552C7933840057C5CB /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3D5984542C7933840057C5CB /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+		3D6EF1E62C77322700483AD6 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3D6EF1E52C77322700483AD6 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		3D6EFAEB2C7B199F00C9D26E /* SwiftUIRouter */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3D6EFAEA2C7B199F00C9D26E /* XCRemoteSwiftPackageReference "swiftui-router" */;
+			productName = SwiftUIRouter;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3D6EF1982C772DFE00483AD6 /* Project object */;
 }

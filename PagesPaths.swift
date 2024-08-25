@@ -6,3 +6,9 @@
 //
 
 import Foundation
+struct PagesPaths {
+    
+    static let spalshScreen : String = "/splashScreen"
+    static let login : String = "/login"
+    static let home : String = "/home"
+}

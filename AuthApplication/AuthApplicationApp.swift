@@ -7,9 +7,12 @@
 
 import SwiftUI
 import SwiftData
+import SwiftUIRouter
 
 @main
 struct AuthApplicationApp: App {
+    @StateObject private var authController = AuthViewModel()
+    @StateObject private var navigator: Navigator = Navigator()
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
             Item.self,
@@ -25,8 +28,11 @@ struct AuthApplicationApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            Router{
+                RootView()
+            }
         }
-        .modelContainer(sharedModelContainer)
+        .modelContainer(sharedModelContainer).environmentObject(authController)
+        .environmentObject(navigator)
     }
 }
